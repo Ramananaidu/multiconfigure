@@ -7,7 +7,7 @@
     "start": "node ./src/server.js",
     "dev": "nodemon ./src/server.js",
     "test": "mocha -R spec src/**/*.spec.js"
-    "coverage": "nyc --reporter=text --reporter=html mocha spec src/**/*.spec.js"
+    "coverage": "nyc --reporter=text --reporter=html mocha src/**/*.spec.js"
     
   },
   "keywords": [
